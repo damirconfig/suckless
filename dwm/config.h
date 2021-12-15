@@ -5,13 +5,13 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "fira-code:size=11" };
-static const char dmenufont[]       = "fira-code:size=11";
-static const char col_gray1[]       = "#1d2021";
-static const char col_gray2[]       = "#444444";
+static const char *fonts[]          = { "Roboto:size=11" };
+static const char dmenufont[]       = "fira code:size=11";
+static const char col_gray1[]       = "#2E3440";
+static const char col_gray2[]       = "#3B4252";
 static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#ebdbb2";
-static const char col_cyan[]        = "#689d6a";
+static const char col_gray4[]       = "#d8dee9";
+static const char col_cyan[]        = "#4C566A";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -67,7 +67,7 @@ static Key keys[] = {
         { MODKEY,                       XK_F3,     spawn,          SHCMD("amixer -D pulse sset Master 5%+")},
         { MODKEY,                       XK_F5,     spawn,          SHCMD("xbacklight -10")},
         { MODKEY,                       XK_F6,     spawn,          SHCMD("xbacklight +10")},
-        { MODKEY,                       XK_w,      spawn,          SHCMD("firefox")},
+        { MODKEY,                       XK_w,      spawn,          SHCMD("brave")},
         { MODKEY,                       XK_s,      spawn,          SHCMD("steam")},
         { MODKEY|ShiftMask,             XK_t,     spawn,          SHCMD("telegram-desktop")},
 
