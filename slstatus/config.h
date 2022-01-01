@@ -66,7 +66,7 @@ static const struct arg args[] = {
 	//{ datetime, "%s",           "%F %T" },
 	//{ wifi_perc, "W: (%3s%% on ", "wlp8s0" },
     //{ netspeed_rx, "%sB/s  ", "enp0s3" },
-        { battery_state, "[BAT %s ", "BAT0"},
+        { battery_state, " [BAT %s ", "BAT0"},
 	{ battery_perc, "%s%%] ", "BAT0"},
 //	{ vol_perc,    "[VOL %s%%] ", "Master" },
 //	{ cpu_perc, "[CPU %s%%] ", NULL	      },
